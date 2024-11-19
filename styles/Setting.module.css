@@ -5,8 +5,12 @@
   line-height: 38px;
 }
 
-.title+.section {
+.title + .section {
   border-top: 1px solid #1f1f1f;
+}
+
+:global(.light) .title + .section {
+  border-top: 1px solid #e1e1e1;
 }
 
 .sectionTitle {
@@ -14,6 +18,10 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 26px;
+}
+
+:global(.light) .sectionTitle {
+  color: #252525;
 }
 
 .input {

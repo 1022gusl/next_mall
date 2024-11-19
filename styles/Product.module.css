@@ -50,6 +50,12 @@
   border-radius: 10px;
 }
 
+:global(.light) .info {
+  background-color: #f9f9f9;
+  border: 1px solid #e1e1e1;
+  border-radius: 10px;
+}
+
 .infoTable {
   width: 100%;
   margin: 20px 0;
@@ -71,6 +77,10 @@
   text-decoration: line-through;
 }
 
+:global(.light) .salePrice {
+  color: #b5b5b5;
+}
+
 .starRating {
   color: #fdc04a;
 }
@@ -87,6 +97,11 @@
   background-color: #1f1f1f;
   border: 1px solid #252525;
   border-radius: 10px;
+}
+
+:global(.light) .sizeForm {
+  background-color: #f9f9f9;
+  border: 1px solid #e1e1e1;
 }
 
 .label {
